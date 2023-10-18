@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CAT3</string>
+    <string name="no_pov">Feeding the poor is a compassionate and humanitarian act aimed at providing essential sustenance to individuals and families who struggle with food insecurity. It involves distributing nutritious meals or food resources to those in need, helping alleviate hunger and improve their overall well-being. This act of kindness is often carried out by charitable organizations, volunteers, and community initiatives, with the goal of addressing the basic human right to access adequate and nutritious food for all.</string>
+    <string name="no_pov1">TBlood donation is a selfless act where individuals voluntarily contribute a portion of their blood to help those in need. This life-saving process involves the collection of blood, which is then processed and used for various medical purposes, including treating patients with serious illnesses, undergoing surgeries, and responding to emergencies. Donors play a crucial role in ensuring a stable supply of blood, making it possible to save countless lives and improve the health of those facing critical medical conditions.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+</resources>

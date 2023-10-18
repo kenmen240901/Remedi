@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutFragment"
+    android:background="@drawable/mainbg">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Our HOPE App"
+        android:textSize="34sp"
+        android:gravity="center"
+        android:textColor="@color/sky_dark"
+        android:padding="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"/>
+
+    <ImageView
+        android:id="@+id/sdglogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/heading"
+        android:src="@drawable/hopebg_nobg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <ScrollView
+        android:id="@+id/homeScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/sdglogo"
+        android:background="@drawable/custom_input"
+        android:layout_margin="10dp"
+        android:padding="5dp">
+
+        <RelativeLayout
+            android:id="@+id/scrollinpage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/sky"
+                android:paddingTop="20dp"
+                android:text="Goal of Hope"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/no_poverty_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/question"
+                android:text="@string/no_pov"
+                android:fontFamily="@font/robo_light"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:id="@+id/no_poverty_text2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/no_poverty_text"
+                android:text="@string/no_pov"
+
+                android:fontFamily="@font/robo_light"
+                android:layout_margin="10dp"/>
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="170dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/no_poverty_text"
+                android:layout_toEndOf="@+id/no_poverty_text2"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/poor"/>
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="170dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/img1"
+                android:layout_toEndOf="@+id/no_poverty_text2"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/blood"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
